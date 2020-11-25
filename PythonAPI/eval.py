@@ -15,7 +15,7 @@ DTpath = Path(args.DTfile)
 assert GTpath.is_file()
 assert DTpath.is_file()
 
-coco = COCO()
+# coco = COCO()
 
 cocoGt=COCO(str(GTpath))
 cocoDt=cocoGt.loadRes(str(DTpath))
