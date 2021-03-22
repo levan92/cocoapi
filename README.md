@@ -20,7 +20,7 @@ The JSON files for Ground Truth (GT) and Predictions are expected to be in [COCO
 
 GT JSON should have `images`, `categories` and `annotations`.  
 
-Prediction JSON can just be a list of predicted bounding boxes with `image_id`s that correspond to the `images` given in GT JSON
+Prediction JSON can just be a list of predicted bounding boxes with `image_id` that corresponds to the `images` given in GT JSON
 ```json
 [
   {"image_id": 0, "category_id": 1, "bbox": [0.0, 193.94281005859375, 131.76132202148438, 79.2210693359375], "score": 0.8640222549438477},
