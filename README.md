@@ -1,6 +1,6 @@
 # Fork of COCOAPI
 
-All the things you need is in `PythonAPI`
+All the things you need is in `PythonAPI/`
 
 ## Installation
 
